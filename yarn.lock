@@ -2,6 +2,111 @@
 # yarn lockfile v1
 
 
+"@dattn/dnd-grid@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@dattn/dnd-grid/-/dnd-grid-0.0.10.tgz#23c1ed0d42744827052bd5134d295bfba75cf1c0"
+
+"@interactjs/actions@1.10.11", "@interactjs/actions@^1.10.2":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/actions/-/actions-1.10.11.tgz#ec68fd60bee751f80c650964b5ba299eb6afe78c"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/auto-scroll@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/auto-scroll/-/auto-scroll-1.10.11.tgz#0c0ac7dbb55aa7d7df6c0a04c77ebb3148cbdf54"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/auto-start@1.10.11", "@interactjs/auto-start@^1.10.2":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/auto-start/-/auto-start-1.10.11.tgz#5ce045740f35be36640ebad053db7b5652e18e70"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/core@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/core/-/core-1.10.11.tgz#8b0203492c1ba6f8432f20b718ae53707fcfc724"
+
+"@interactjs/dev-tools@1.10.11", "@interactjs/dev-tools@^1.10.2":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/dev-tools/-/dev-tools-1.10.11.tgz#8d4b5b650cf74e800909f52962008700143a4304"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/inertia@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/inertia/-/inertia-1.10.11.tgz#58864173310985b8247d84e347148ea6cd7b88a8"
+  dependencies:
+    "@interactjs/offset" "1.10.11"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/interact@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/interact/-/interact-1.10.11.tgz#d96e3f949ee4001a6a34dc363a232646f9dd2b1b"
+  dependencies:
+    "@interactjs/core" "1.10.11"
+    "@interactjs/types" "1.10.11"
+    "@interactjs/utils" "1.10.11"
+
+"@interactjs/interactjs@^1.10.2":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/interactjs/-/interactjs-1.10.11.tgz#d0fdd6b03c1c855043b1f608a10b2f5ccac4b4b7"
+  dependencies:
+    "@interactjs/actions" "1.10.11"
+    "@interactjs/auto-scroll" "1.10.11"
+    "@interactjs/auto-start" "1.10.11"
+    "@interactjs/core" "1.10.11"
+    "@interactjs/dev-tools" "1.10.11"
+    "@interactjs/inertia" "1.10.11"
+    "@interactjs/interact" "1.10.11"
+    "@interactjs/modifiers" "1.10.11"
+    "@interactjs/offset" "1.10.11"
+    "@interactjs/pointer-events" "1.10.11"
+    "@interactjs/reflow" "1.10.11"
+    "@interactjs/utils" "1.10.11"
+
+"@interactjs/modifiers@1.10.11", "@interactjs/modifiers@^1.10.2":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/modifiers/-/modifiers-1.10.11.tgz#f40962a97fd3e110e66b79664796c24f3c4e6cd6"
+  dependencies:
+    "@interactjs/snappers" "1.10.11"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/offset@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/offset/-/offset-1.10.11.tgz#512242f330dc80cdbda4feda8fb34c0491f50496"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/pointer-events@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/pointer-events/-/pointer-events-1.10.11.tgz#ff4c74a75d7711fc1006ebf32ea344e35bffe938"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/reflow@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/reflow/-/reflow-1.10.11.tgz#43d2ad8ca002bf98091273d179fd70b1cabfb9e2"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/snappers@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/snappers/-/snappers-1.10.11.tgz#3eb6e45ab8319c0dd4b60b284c55c87561aaadb1"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.11"
+
+"@interactjs/types@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/types/-/types-1.10.11.tgz#29be25d503f9c7842df062fa3cda5b044a47cf2a"
+
+"@interactjs/utils@1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@interactjs/utils/-/utils-1.10.11.tgz#939d0f128dfa96c673276cca3eb7f313d92daabf"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -818,6 +923,10 @@ base@^0.11.1:
     isobject "^3.0.1"
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
+
+batch-processor@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
 
 batch@0.6.1:
   version "0.6.1"
@@ -2023,6 +2132,12 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.30.tgz#9666f532a64586651fc56a72513692e820d06a80"
   dependencies:
     electron-releases "^2.1.0"
+
+element-resize-detector@^1.2.1:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/element-resize-detector/-/element-resize-detector-1.2.2.tgz#bf7c3ff915957e4e62e86241ed2f9c86b078892b"
+  dependencies:
+    batch-processor "1.0.0"
 
 elliptic@^6.0.0:
   version "6.4.0"
@@ -4018,9 +4133,9 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.4, lodash@~4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.21, lodash@^4.17.4, lodash@~4.17.4:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
 
 logalot@^2.0.0:
   version "2.1.0"
@@ -6729,6 +6844,21 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-draggable-resizable@^1.5.5:
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/vue-draggable-resizable/-/vue-draggable-resizable-1.7.5.tgz#25a42d6e2400dde11ee0e42cb6760f402380c81e"
+
+vue-grid-layout@^2.1.11:
+  version "2.3.12"
+  resolved "https://registry.yarnpkg.com/vue-grid-layout/-/vue-grid-layout-2.3.12.tgz#b6396357b86a66805c117431d7c193d2e066edda"
+  dependencies:
+    "@interactjs/actions" "^1.10.2"
+    "@interactjs/auto-start" "^1.10.2"
+    "@interactjs/dev-tools" "^1.10.2"
+    "@interactjs/interactjs" "^1.10.2"
+    "@interactjs/modifiers" "^1.10.2"
+    element-resize-detector "^1.2.1"
 
 vue-hot-reload-api@^2.2.0:
   version "2.2.4"
